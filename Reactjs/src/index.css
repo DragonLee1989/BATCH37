@@ -1,0 +1,31 @@
+
+/* nhúng file custom vào layer components */
+@import url(custom.css) layer(components);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Thứ tự ưu tiên: từ ngoài vào trong & trên xuống dưới */
+/* cú pháp cơ bản cho các thẻ */
+@layer base {
+    .btn {
+        @apply px-3 py-1 bg-gray-500 rounded text-white font-bold mr-2 hover:bg-gray-200
+    }
+}
+
+/* CSS cho các Class tạo biến thể */
+@layer components {
+    .btn-primary {
+        @apply bg-indigo-500 hover:bg-indigo-200
+    }
+}
+
+/* CSS tạo các class bổ trợ */
+@layer utilities {
+    .pxc-1 {
+        padding: 15px 0;
+    }
+}
+
+

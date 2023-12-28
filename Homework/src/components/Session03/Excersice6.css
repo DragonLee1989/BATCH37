@@ -1,0 +1,53 @@
+.productLists{
+    display: flex;
+    /* border: 1px solid red; */
+    /* height: 500px; */
+    width: 100%;
+}
+.productCard{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(51, 0, 255); */
+    /* height: auto; */
+    width: 25%;
+    margin-right: 10px;
+}
+.productCard .imgCard{
+    /* height: 100%;
+    width: auto; */
+    /* border: 1px solid rgb(60, 0, 255); */
+    border-radius: 10px;
+    width: 100%;
+}
+
+.productCard .content{
+    /* height: 50px; */
+    /* width: auto; */
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.productCard .viewer{
+    color: coral;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+.header{
+    display: flex;
+}
+
+.tinMoi{
+    display: flex;
+    justify-content: flex-start;
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+.xemThem{
+    display: flex;
+    /* justify-self: end; */
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+    width: 50%;
+}
